@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Projects — Joey Laufter</title>
+  <meta name="description" content="Selected projects including Campus BookShare and a personal site refactor." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html">Joey Laufter</a>
+    <nav aria-label="Primary" class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html" class="active" aria-current="page">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>Projects</h1>
+
+  <div class="projects-grid">
+    <article class="card">
+      <img src="images/process_maps.jpeg.jpeg" alt="Campus BookShare project preview">
+      <div class="card-body">
+        <h2>Campus BookShare</h2>
+        <p>A full-stack web application that lets students share, borrow, and lend textbooks across campus. Built with Flask, SQLite, and responsive front-end design.</p>
+        <p class="tags">HTML • CSS • Flask • SQLite • JavaScript</p>
+        <div class="links">
+          <a class="btn" href="https://github.com/Laufterbeast/FinalLauf.git" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="images/friends_skyline.jpeg.jpeg" alt="Personal Website v2 preview">
+      <div class="card-body">
+        <h2>Personal Website v2</h2>
+        <p>An earlier version of my personal portfolio built with HTML, CSS, and basic JavaScript. It showcases my initial design concepts and helped me learn responsive web development.</p>
+        <p class="tags">HTML • CSS • JavaScript</p>
+        <div class="links">
+          <a class="btn" href="https://github.com/Laufterbeast/Personalwebv2.git" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="images/outdoor_headshot.jpeg.jpeg" alt="Thumbnail representing Joey's earlier personal site">
+      <div class="card-body">
+        <h2>Personal Website (v1)</h2>
+        <p>An earlier portfolio iteration refactored into this cleaner, more accessible, multi-page site.</p>
+        <p class="tags">HTML • CSS • Accessibility</p>
+        <div class="links">
+          <a class="btn btn-secondary" href="#" aria-disabled="true">Live Demo (soon)</a>
+          <a class="btn" href="#" aria-disabled="true">Repo (soon)</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <small>© <span id="year"></span> Joey Laufter | <a href="https://github.com/Laufterbeast/joey-site" target="_blank" rel="noopener">View Source on GitHub</a></small>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
+
